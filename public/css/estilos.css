@@ -1,0 +1,113 @@
+html,
+/*---------------------------Selectores por clase-----------------------------*/
+.nav{
+    position: absolute; 
+    top: 0;
+    width:100%;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    border-color: orange;
+}
+body{
+    height: 50em;
+   padding-top: 10px; 
+  background-size:auto;
+  background-position: 30%;
+  background-position-y: -180px;
+}
+.card1{
+    width: 500px;
+    height: 500px;
+
+}
+.card-body{
+    text-align: justify;
+    color: rgb(199, 73, 15);
+}
+.card-title{
+   color: orangered;
+}
+.card-header{
+    background-color: orangered;
+    color: white;
+}
+.display-4{
+    text-align: center;
+}
+.btn-code{
+    color: white;
+    border-color: white;
+    background-color: orangered!important;
+    width: 80px;
+    margin-left: 0.5%;
+}
+.jumbotron{
+    color:white;
+    background-color: #005597!important;
+}
+.fas{
+    align-content: center;
+}
+/* --------------------Selectores por ID-------------------*/
+#logo-sin-fondo{
+    width: 75px;
+}
+#navBar-registro{
+    height: 50px;
+    background-color: white!important;
+    border-radius: 3px!important;
+}
+#btn-navBar-registro{
+    width: 134px;
+    height: 38px;
+    font-size: 15px;
+    padding-top: 5px;
+}
+#btn-cerrar{
+    width: 130px;
+    height: 35px;
+    font-size: 15px;
+    padding-top: 5px;
+    margin-top: 8px;
+}
+#label-navBar-registro{
+    font-size: small;
+    margin-right: 0px;
+    margin-left: 890px!important;
+}
+#rounded-circle1{
+    width: 140px;
+    height: 140px;
+}
+#rounded{
+    margin-left: 85px;
+    border-radius: 50%;
+    width: 150px;
+    height: 140px;
+}
+#rounded2{
+    margin-left: 85px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+#pie{
+    color: rgba(0, 60, 255, 0.349);
+    width: 100%;
+    bottom: 0%;
+    margin: 0;
+    padding: 0;
+}
+#label-abrir{
+    width: 2em;
+    height: 2em;
+    margin-left: 580px;
+    background-color: orangered;
+    border-radius: 3px;
+    padding-left: 9px;
+    padding-top: 3px; 
+
+}
