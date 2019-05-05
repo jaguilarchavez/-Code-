@@ -49,7 +49,7 @@ router.get('/logout', function (req, res) {
 
         // REGISTRAR //
 //Petición para registrar un usuario
-router.post("/registro", function (req, res) {
+router.post("/u", function (req, res) {
     var r = new usuario({
         nombre : req.body.nombre,
         apellido : req.body.apellido,
@@ -58,7 +58,7 @@ router.post("/registro", function (req, res) {
         contrasena : req.body.contrasena,
         genero : req.body.genero,
         fechaNacimiento: req.body.fechaNacimiento,
-        foto :  "sin-foto.jpg",
+        foto :  "usuario3.jpg",
         proyectos : [],
         membresia : mongoose.Types.ObjectId(),
         tarjeta : mongoose.Types.ObjectId()

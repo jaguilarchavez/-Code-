@@ -120,7 +120,7 @@ function proyectos() {
             console.log(res);
             var valor = '<div id="filaProyecto" name="filaProyecto" class="row container-fluid">';
                 valor += `<div class="col-xl-12 col-md-12 col-sm-12 text-left">
-                            <button type="button" name="nuevoProyecto" data-toggle="modal" data-target="#proyectoNuevoModal" onclick="proyectoNuevo();" class="btn btn-outline-primary">Crear proyecto</button>
+                            <button type="button" name="nuevoProyecto" data-toggle="modal" data-target="#proyectoNuevoModal"  class="btn btn-outline-primary">Crear proyecto</button>
                         </div><br>`;
                 for (var i = 0; i < res[0].proyectos.length; i++) { 
                     valor += `
@@ -259,12 +259,13 @@ function abrirProyecto(idProyecto) {
                 <div class="col-sm-3">
                     <div class="border-right text-white" id="sidebar-wrapper1">
                         <div class="sidebar-heading1 row">
-                            <div class="col-xl-8">
+                            <div class="col-xl-6">
                                 <p class="h5 text-dark">${res[0].nombre}</p>
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-6">
                                 <button type="button" class="btn btn-light" data-toggle="modal" data-target="#carpetaModal" data-toggle="tooltip" data-placement="top" title="Nueva Carpeta"><i class="fas fa-folder" style="color: black;"></i></button>
                                 <button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="top" title="Nuevo Archivo"><i class="far fa-sticky-note" style="color: black;"></i></button>
+                                <a href="../prueba.html" class="btn btn-light" data-toggle="tooltip" data-placement="top" title="Nuevo Archivo"><i class="far fa-edit"></i></a>
                             </div>
                         </div>
                         <div class="list-group1 list-group-flush1">`;
